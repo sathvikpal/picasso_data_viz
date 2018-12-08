@@ -32,7 +32,48 @@ aside {
   aside {
     grid-column: 1 / span 5;
   }
+}
 
+@media screen and (max-width: 700px){
+  h1 {
+    text-align: left;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16vh;
+    font-weight: 575;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 0;
+  }
+  h4 {
+    text-align: left;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 5vh;
+    font-weight: 575;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: -100px;
+  }
+}
+
+@media screen and (min-width: 701px){
+  h1 {
+    text-align: center;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 21vh;
+    font-weight: 575;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 0;
+  }
+  h4 {
+    text-align: center;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 50;
+    font-weight: 575;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: -100px;
+  }
 }
 
 /* Demo Specific Styles */
@@ -95,15 +136,6 @@ aside>figure>img{
   max-height: 70vh;
 }
 
-h1 {
-  text-align: center;
-  font-family: 'Roboto', Arial, sans-serif;
-  font-size: 21vh;
-  font-weight: 575;
-  padding-left: 0px;
-  padding-right: 0px;
-  margin-bottom: 0;
-}
 h2 {
   text-align: left;
   font-family: 'Caveat';
@@ -123,15 +155,7 @@ h3 {
   padding-right: 10px;
 }
 
-h4 {
-  text-align: center;
-  font-family: 'Roboto', Arial, sans-serif;
-  font-size: 50;
-  font-weight: 575;
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-top: -100px;
-}
+
 figure{
   text-align: center;
     font-size: 100%;

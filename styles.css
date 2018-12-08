@@ -4,7 +4,6 @@
 body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 100vh fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%);
   grid-gap: 1em;
   overflow-x: hidden;
 }
@@ -53,7 +52,8 @@ aside {
   height:inherit;
 }
 header2{
-  height: 100vh;
+  min-height: 100vh;
+  overflow: hidden;
   justify-content: center;
 }
 header{

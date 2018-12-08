@@ -4,6 +4,7 @@
 body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-row: 100vh;
   grid-gap: 1em;
   overflow-x: hidden;
 }
@@ -55,6 +56,7 @@ header2{
   min-height: 100vh;
   overflow: hidden;
   justify-content: center;
+  display: block;
 }
 header{
   height: auto;
@@ -96,7 +98,7 @@ aside>figure>img{
 h1 {
   text-align: center;
   font-family: 'Roboto', Arial, sans-serif;
-  font-size: 20vh;
+  font-size: 21vh;
   font-weight: 575;
   padding-left: 0px;
   padding-right: 0px;
